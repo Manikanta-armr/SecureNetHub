@@ -1,0 +1,64 @@
+.Form {
+  margin-top:10%;
+  margin-left: 40%;
+  position: relative;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.password-icon {
+  position: absolute;
+  right: 10px;
+  margin-top: 16px;
+  transform: translateX(-190%);
+  cursor: pointer;
+}
+
+small{
+  color: red;
+  font-size: 10px;
+}
+
+#regist {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+#user,#pass,#prof {
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+#file{
+  padding: 15px;
+}
+
+input:focus{
+  border-color: #2e7d32;
+  box-shadow: 0 0 5px rgba(46, 125, 50, 0.5);
+  outline: none;
+}
+
+#submit {
+  width: 50%;
+  padding: 10px;
+  border-radius: 8px;
+  color: blue;
+  background-color: lightgreen;
+  border: none;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: green;
+  color: white;
+}
